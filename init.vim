@@ -14,6 +14,7 @@ map <leader>q :NERDTreeToggle<CR>
 " Command Line Fuzzy Finder -----------------------------------------------
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.5, 'highlight': 'Comment' } }
 " leader+f for opens files
 nnoremap <silent> <leader>f :Files<CR>
 nmap <leader>c :Commits<CR>

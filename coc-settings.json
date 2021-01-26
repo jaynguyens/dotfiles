@@ -1,17 +1,23 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["*"],
-  "eslint.autoFixOnSave": true,
-  "tsserver.formatOnType": true,
-  "eslint.filetypes": [
-    "javascript",
-    "typescript",
-    "typescriptreact",
-    "javascriptreact",
-    "typescript.tsx"
-  ],
-  "diagnostic.errorSign": "⎯✗",
-  "diagnostic.warningSign": "⎯∆",
-  "diagnostic.infoSign": "⎯⏍",
-  "diagnostic.hintSign": "⎯✔︎",
-  "prettier.disableSuccessMessage": true
+	"coc.preferences.formatOnSaveFiletypes": ["*"],
+	"eslint.autoFixOnSave": true,
+	"tsserver.formatOnType": true,
+	"eslint.filetypes": [
+		"javascript",
+		"typescript",
+		"typescriptreact",
+		"javascriptreact",
+		"typescript.tsx"
+	],
+	"diagnostic.errorSign": "⎯✗",
+	"diagnostic.warningSign": "⎯∆",
+	"diagnostic.infoSign": "⎯⏍",
+	"diagnostic.hintSign": "⎯✔︎",
+	"prettier.disableSuccessMessage": true,
+	"prettier.printWidth": 80,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.semi": false,
+	"prettier.jsxSingleQuote": true
 }

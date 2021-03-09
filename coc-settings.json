@@ -9,6 +9,7 @@
 		"javascriptreact",
 		"typescript.tsx"
 	],
+	"eslint.enable": false,
 	"diagnostic.errorSign": "⎯✗",
 	"diagnostic.warningSign": "⎯∆",
 	"diagnostic.infoSign": "⎯⏍",

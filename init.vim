@@ -150,7 +150,11 @@ nnoremap <leader>. zM<CR>
 nnoremap <leader>w :w<CR>
 " Quick sav
 nnoremap <leader>x :x<CR>
-
+" Quick copy and paste
+nnoremap <C-y> "+y
+vnoremap <C-y> "+y
+nnoremap <C-p> "+gP
+vnoremap <C-p> "+gP
 
 " Colorscheme and True Colors
 let g:material_terminal_italics = 1
@@ -159,3 +163,6 @@ colorscheme material
 let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
 set background=dark
 set termguicolors
+
+
+
